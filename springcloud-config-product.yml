@@ -1,7 +1,14 @@
 #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
 spring:
   profiles:
-    active: prod # 激活开发环境配置
+    active: prod # 激活开发环境配
+
+#定义全局变量，测试bus
+top:
+  saler:
+    name: Miki
+    age: 18
+
 ---
 server:
   port: 8001

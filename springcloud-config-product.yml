@@ -6,8 +6,8 @@ spring:
 #定义全局变量，测试bus
 top:
   saler:
-    name: Shen
-    age: 60
+    name: Akali
+    age: 22
 
 ---
 server:

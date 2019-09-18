@@ -1,4 +1,5 @@
 #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
+#保存时注意，选择 UTF-8 保存
 spring:
   profiles:
     active: dev # 激活开发环境配置
@@ -16,4 +17,3 @@ spring:
   profiles: prod # 生产环境
   application:
     name: springcloud-config-prod
-#保存时注意，选择 UTF-8 保存
